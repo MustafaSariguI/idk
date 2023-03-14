@@ -1,0 +1,6 @@
+anything = true
+while true do
+local workspace = game:GetService("Workspace")
+local partToDelete = workspace.Stores.WoodRUs.Parts.Part
+partToDelete:Destroy()
+end
