@@ -1,6 +1,6 @@
 anything = true
 while true do
 local workspace = game:GetService("Workspace")
-local deletw = workspace.Stores.WoodRUs.Parts.METALPLASTIC
+local deletw = workspace.PartSpawner
 deletw:Destroy()
 end
