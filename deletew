@@ -1,6 +1,6 @@
 anything = true
 while true do
 local workspace = game:GetService("Workspace")
-local deletw = workspace.PartSpawner
+local deletw = workspace.["Region_Snow"].PartSpawner
 deletw:Destroy()
 end
